@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object Detection Stream</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Raspberry Pi Object Detection</h1>
+    </header>
+    <main>
+        <div class="video-container">
+            <img src="/video_feed" alt="Video Stream">
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 Raspberry Pi Object Detection</p>
+    </footer>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
